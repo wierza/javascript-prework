@@ -1,4 +1,4 @@
-{function playGame(playerInput){
+{const playGame = function(playerInput){
   clearMessages();
 
   const getMoveName = function(argMoveId){
@@ -67,7 +67,7 @@
   displayResult(argComputerMove, argPlayerMove);
 }
 
-function rockClicked(){
+const rockClicked = function(){
   playGame(1);
 }
 
@@ -75,7 +75,7 @@ const playRock = document.getElementById('play-rock');
 
 playRock.addEventListener('click', rockClicked);
 
-function paperClicked(){
+const paperClicked = function(){
   playGame(2);
 }
 
@@ -83,7 +83,7 @@ const playPaper = document.getElementById('play-paper');
 
 playPaper.addEventListener('click', paperClicked);
 
-function scissorsClicked(){
+const scissorsClicked =function(){
   playGame(3);
 }
 

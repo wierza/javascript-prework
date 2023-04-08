@@ -19,7 +19,7 @@
 
   console.log('Wylosowana liczba to: ' + randomNumber);
 
-  let argComputerMove = getMoveName(randomNumber);
+  const argComputerMove = getMoveName(randomNumber);
 
   printMessage('Mój ruch to: ' + argComputerMove);
 

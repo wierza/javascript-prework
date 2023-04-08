@@ -25,7 +25,7 @@
 
   console.log('Gracz wpisał: ' + playerInput);
 
-  let argPlayerMove = getMoveName(playerInput);
+  const argPlayerMove = getMoveName(playerInput);
 
   printMessage('Twój ruch to: ' + argPlayerMove);
 

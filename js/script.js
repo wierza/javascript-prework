@@ -67,7 +67,7 @@
   displayResult(argComputerMove, argPlayerMove);
 }
 
-const rockClicked = function(){
+{const rockClicked = function(){
   playGame(1);
 }
 
@@ -90,4 +90,5 @@ const scissorsClicked =function(){
 const playScissors = document.getElementById('play-scissors');
 
 playScissors.addEventListener('click', scissorsClicked);
+}
 }

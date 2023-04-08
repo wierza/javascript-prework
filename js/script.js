@@ -1,4 +1,4 @@
-function playGame(playerInput){
+{function playGame(playerInput){
   clearMessages();
 
   function getMoveName(argMoveId){
@@ -90,3 +90,4 @@ function scissorsClicked(){
 let playScissors = document.getElementById('play-scissors');
 
 playScissors.addEventListener('click', scissorsClicked);
+}
